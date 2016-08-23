@@ -61,10 +61,10 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #f3f4f4;
 }
 .bg-dark-gray{
-    background-color: #ebebeb;
+    background-color: #e5e5e5;
 }
 
 .bg-darkest-gray {
@@ -72,12 +72,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #e2221f;
+    border-color: #f8bd77;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #e2221f;
+    background-color: #f8bd77;
 }
 
 .btn-primary:hover,
@@ -122,14 +122,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #e2221f;
+    border-color: #f8bd77;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #e2221f;
+    background-color: #f8bd77;
 }
 
 .btn-xl:hover,
@@ -197,7 +197,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #e2221f;
+    color: #f8bd77;
 }
 
 .navbar-default .navbar-collapse {
@@ -205,9 +205,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #e2221f;
-    background-color: #e2221f;
-    border-bottom-color: #e2221f;
+    border-color: #f8bd77;
+    background-color: #f8bd77;
+    border-bottom-color: #f8bd77;
     border-bottom-width: 2px;
 }
 .navbar-default .navbar-toggle .icon-bar {
@@ -216,7 +216,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #e2221f;
+    background-color: #f8bd77;
 }
 
 .navbar-default .nav li a {
@@ -227,7 +227,7 @@ fieldset[disabled] .btn-xl.active {
     color: #8c8c8c;
 }
 
-.navbar-default .nav li a:,
+.navbar-default .nav li a,
 .navbar-default .nav li a:focus {
     outline: 0;
     color: #fed136;
@@ -235,13 +235,13 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #e2221f;
+    color: #f8bd77;
     background-color: #fff;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #e2221f;
+    color: #f8bd77;
     background-color: #fff;
 }
 
@@ -256,7 +256,7 @@ fieldset[disabled] .btn-xl.active {
         transition: padding .3s;
         /*customizing*/
         background-color: #fff;
-        /*border-bottom-color: #e2221f;
+        /*border-bottom-color: #f8bd77;
         border-bottom-width: 2px;*/
     
     }
@@ -274,7 +274,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink {
         padding: 10px 0;
         background-color: #fff;
-        border-bottom-color: #e2221f;
+        border-bottom-color: #f8bd77;
         border-bottom-width: 2px;
 
     }
@@ -658,7 +658,7 @@ section h3.section-subheading {
     margin: 0;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 20px;
-    font-style: bold;
+    font-style: normal;
     color:#8e8e8e;
 }
 
@@ -1053,7 +1053,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content p.item-intro li{
     position: relative;
     list-style-type: circle;
-    list-style-position: right;
+    list-style-position: inside;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
